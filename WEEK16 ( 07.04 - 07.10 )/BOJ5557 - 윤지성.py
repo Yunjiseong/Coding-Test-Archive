@@ -1,7 +1,6 @@
 import sys
 
 if __name__ == '__main__':
-    cnt = 0
     n = int(input())
     v = list(map(int, sys.stdin.readline().split()))
     # dp 배열 선언

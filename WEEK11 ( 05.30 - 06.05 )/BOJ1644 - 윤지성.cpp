@@ -6,7 +6,7 @@ using namespace std;
 vector<int> prime(4000001);
 vector<int> rprime;
 void makePrime(int n) {//에라토스테네스 체
-	for (int i = 2; i <= n/2; i++) 
+	for (int i = 2; i <= n/2; i++)
 		for (int j = 2; i * j <= n; j++) 
 			prime[i * j] = 1;
 		
