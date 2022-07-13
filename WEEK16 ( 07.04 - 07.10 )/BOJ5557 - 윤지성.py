@@ -1,7 +1,10 @@
 import sys
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     cnt = 0
+=======
+>>>>>>> def3b82f4b442ec1073e8f7b0ad2407bc4439a19
     n = int(input())
     v = list(map(int, sys.stdin.readline().split()))
     # dp 배열 선언
@@ -17,4 +20,8 @@ if __name__ == '__main__':
                 if 0<=j-v[i]<=20:
                     d[i][j-v[i]] += d[i-1][j]
 
+<<<<<<< HEAD
     print(d[n-2][v[-1]])
+=======
+    print(d[n-2][v[-1]])
+>>>>>>> def3b82f4b442ec1073e8f7b0ad2407bc4439a19
